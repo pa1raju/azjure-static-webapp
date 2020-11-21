@@ -8,6 +8,48 @@ import '@testing-library/jest-dom/extend-expect';
 
 
 
+body {    
+    margin: 0;    
+    font-family: Roboto, sans-serif;    
+}    
+    
+mat-card {    
+    max-width: 80%;    
+    margin: 2em auto;    
+       
+}  
+mat-card-title{
+    text-align: center;
+}  
+    
+mat-toolbar-row {    
+    justify-content: space-between;    
+} 
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+  .dynamic_field{
+      width: 40%;
+  }
+
+.button-row{ 
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+.button-row button{
+    margin-right: 8px;
+}
+
+  
+
+
 
 
 
